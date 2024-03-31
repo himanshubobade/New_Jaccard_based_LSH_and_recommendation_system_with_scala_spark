@@ -1,0 +1,16 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark\target\scala-2.12\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	M$.class
+[debug] 	Task2.class
+[debug] 	Task2_1.class
+[debug] 	Task1.class
+[debug] 	M.class
+[debug] 	Task1_old.class
+[debug] 	Task1$$typecreator11$1.class
+[debug] 	Task2$.class
+[debug] 	Task2_1$.class
+[debug] 	Task1$.class
+[debug] 	Task1_old$.class
+[debug] Removing the temporary directory used for backing up class files: C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark\target\scala-2.12\classes.bak

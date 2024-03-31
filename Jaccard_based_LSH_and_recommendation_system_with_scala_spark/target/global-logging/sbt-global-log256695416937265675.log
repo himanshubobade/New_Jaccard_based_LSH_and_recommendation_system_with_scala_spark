@@ -1,0 +1,90 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.0 (Oracle Corporation Java 1.8.0_202)
+[debug] Load.defaultLoad until apply took 619.987201ms
+[debug]           Load.loadUnit: plugins took 84.2354ms
+[debug]           Load.loadUnit: defsScala took 0.3241ms
+[debug] [Loading] Scanning directory C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark\project
+[debug]             Load.loadUnit: mkEval took 5.820099ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 12.324899 ms
+[info] loading settings for project jaccard_based_lsh_and_recommendation_system_with_scala_spark-build from plugins.sbt ...
+[debug]               Load.resolveProject(jaccard_based_lsh_and_recommendation_system_with_scala_spark-build) took 37.2837ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id jaccard_based_lsh_and_recommendation_system_with_scala_spark-build, base: C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark\project, plugins: List(<none>))) took 69.867899ms
+[debug] [Loading] Done in C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark\project, returning: (jaccard_based_lsh_and_recommendation_system_with_scala_spark-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 230.019201ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.5531ms
+[debug]         Load.loadUnit(file:/C:/ProgramSetups/IntelliJ%20Projects/Jaccard_based_LSH_and_recommendation_system_with_scala_spark/project/, ...) took 325.778ms
+[debug]       Load.apply: load took 448.2073ms
+[debug]       Load.apply: resolveProjects took 4.6953ms
+[debug]       Load.apply: finalTransforms took 61.279ms
+[debug]       Load.apply: config.delegates took 9.614301ms
+[debug]       Load.apply: Def.make(settings)... took 358.6533ms
+[debug]       Load.apply: structureIndex took 121.056ms
+[debug]       Load.apply: mkStreams took 2.3857ms
+[info] loading project definition from C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2043.279799ms
+[debug]     Load.loadUnit: defsScala took 0.0037ms
+[debug] [Loading] Scanning directory C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark
+[debug]       Load.loadUnit: mkEval took 0.389099ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbtassembly.AssemblyPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbtassembly.AssemblyPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.0272 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 3.1396ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark, plugins: List(<none>))) took 8.6448ms
+[debug] [Loading] Done in C:\ProgramSetups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 152.2256ms
+[debug]     Load.loadUnit: cleanEvalClasses took 4.0849ms
+[debug]   Load.loadUnit(file:/C:/ProgramSetups/IntelliJ%20Projects/Jaccard_based_LSH_and_recommendation_system_with_scala_spark/, ...) took 2200.9728ms
+[debug] Load.apply: load took 2218.006ms
+[debug] Load.apply: resolveProjects took 0.199701ms
+[debug] Load.apply: finalTransforms took 14.4213ms
+[debug] Load.apply: config.delegates took 0.4614ms
+[debug] Load.apply: Def.make(settings)... took 113.318ms
+[debug] Load.apply: structureIndex took 31.0685ms
+[debug] Load.apply: mkStreams took 0.0037ms
+[info] set current project to Assignment1 (in build file:/C:/ProgramSetups/IntelliJ%20Projects/Jaccard_based_LSH_and_recommendation_system_with_scala_spark/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

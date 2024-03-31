@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.lang3
+Built-By: ggregory
+Bnd-LastModified: 1584970668030
+Specification-Title: Apache Commons Lang
+Bundle-DocURL: https://commons.apache.org/proper/commons-lang/
+Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt
+ =NOTICE.txt
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Export-Package: org.apache.commons.lang3;version="3.10",org.apache.com
+ mons.lang3.arch;version="3.10",org.apache.commons.lang3.builder;versi
+ on="3.10",org.apache.commons.lang3.compare;version="3.10",org.apache.
+ commons.lang3.concurrent;version="3.10",org.apache.commons.lang3.even
+ t;version="3.10",org.apache.commons.lang3.exception;version="3.10",or
+ g.apache.commons.lang3.math;version="3.10",org.apache.commons.lang3.m
+ utable;version="3.10",org.apache.commons.lang3.reflect;version="3.10"
+ ,org.apache.commons.lang3.text;version="3.10",org.apache.commons.lang
+ 3.text.translate;version="3.10",org.apache.commons.lang3.time;version
+ ="3.10",org.apache.commons.lang3.tuple;version="3.10"
+Bundle-Name: Apache Commons Lang
+Build-Jdk-Spec: 1.8
+Implementation-Title: Apache Commons Lang
+Bundle-Description: Apache Commons Lang, a package of Java utility cla
+ sses for the  classes that are in java.lang's hierarchy, or are consi
+ dered to be so  standard as to justify existence in java.lang.
+Automatic-Module-Name: org.apache.commons.lang3
+Implementation-Version: 3.10
+Specification-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-4.2.0.201903051501
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 3.10.0
+Created-By: Apache Maven Bundle Plugin
+Specification-Version: 3.10
+Build-Jdk: 1.8.0_241
+

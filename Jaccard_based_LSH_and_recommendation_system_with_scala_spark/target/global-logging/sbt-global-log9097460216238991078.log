@@ -1,0 +1,16 @@
+[debug] > Exec(;clean ;assembly, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 29 s, completed 16 Mar, 2024 1:41:29 PM
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Program Setups\IntelliJ Projects\Jaccard_based_LSH_and_recommendation_system_with_scala_spark\target\scala-2.12\classes ...
+[info] done compiling
+[info] Strategy 'discard' was applied to 405 files (Run the task at debug level to see details)
+[info] Strategy 'first' was applied to 23 files (Run the task at debug level to see details)
+[success] Total time: 60 s, completed 16 Mar, 2024 1:42:28 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

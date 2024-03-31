@@ -1,0 +1,18 @@
+[debug] > Exec(;clean ;assembly, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 14-Mar-2024, 11:56:04 PM
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\HIMANSHUU\IdeaProjects\spark_sbt_setup\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.10. Compiling...
+[info]   Compilation completed in 9.833s.
+[info] done compiling
+[info] Strategy 'discard' was applied to 412 files (Run the task at debug level to see details)
+[info] Strategy 'first' was applied to 172 files (Run the task at debug level to see details)
+[success] Total time: 66 s (01:06), completed 14-Mar-2024, 11:57:11 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

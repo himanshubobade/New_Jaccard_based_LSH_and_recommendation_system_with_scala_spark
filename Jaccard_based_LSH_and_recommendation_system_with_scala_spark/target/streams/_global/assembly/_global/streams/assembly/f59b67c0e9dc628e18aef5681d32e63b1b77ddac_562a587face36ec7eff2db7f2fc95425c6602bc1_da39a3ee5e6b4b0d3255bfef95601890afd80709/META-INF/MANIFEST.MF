@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.eclipse.org/org/documents/edl-v10.php
+Bundle-SymbolicName: jakarta.activation-api
+Archiver-Version: Plexus Archiver
+Built-By: default
+Bnd-LastModified: 1542752033573
+Implementation-Vendor-Id: com.sun
+Specification-Title: jakarta.activation.jakarta.activation-api
+Bundle-DocURL: https://www.eclipse.org
+Import-Package: com.sun.activation.registries,javax.activation;version
+ ="1.2"
+DynamicImport-Package: *
+Export-Package: javax.activation;uses:="com.sun.activation.registries"
+ ;version="1.2"
+Bundle-Name: JavaBeans Activation Framework API jar
+Extension-Name: jakarta.activation
+Implementation-Title: jakarta.activation.jakarta.activation-api
+Bundle-Description: JavaBeans Activation Framework API jar
+Automatic-Module-Name: jakarta.activation
+Implementation-Version: 1.2.1
+Specification-Vendor: Eclipse Foundation
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Eclipse Foundation
+Tool: Bnd-0.0.357
+Implementation-Vendor: Eclipse Foundation
+Bundle-Version: 1.2.1
+Created-By: 1.8.0_181 (Oracle Corporation)
+Build-Jdk: 1.8.0_181
+Specification-Version: 1.2
+

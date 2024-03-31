@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Export-Package: org.antlr.v4.runtime;uses:="org.antlr.v4.runtime.atn,o
+ rg.antlr.v4.runtime.dfa,org.antlr.v4.runtime.misc,org.antlr.v4.runtim
+ e.tree,org.antlr.v4.runtime.tree.pattern";version="4.8.0",org.antlr.v
+ 4.runtime.misc;uses:="org.antlr.v4.runtime";version="4.8.0",org.antlr
+ .v4.runtime.tree;uses:="org.antlr.v4.runtime,org.antlr.v4.runtime.mis
+ c";version="4.8.0",org.antlr.v4.runtime.tree.xpath;uses:="org.antlr.v
+ 4.runtime,org.antlr.v4.runtime.atn,org.antlr.v4.runtime.tree";version
+ ="4.8.0",org.antlr.v4.runtime.tree.pattern;uses:="org.antlr.v4.runtim
+ e,org.antlr.v4.runtime.misc,org.antlr.v4.runtime.tree";version="4.8.0
+ ",org.antlr.v4.runtime.dfa;uses:="org.antlr.v4.runtime,org.antlr.v4.r
+ untime.atn";version="4.8.0",org.antlr.v4.runtime.atn;uses:="org.antlr
+ .v4.runtime,org.antlr.v4.runtime.dfa,org.antlr.v4.runtime.misc";versi
+ on="4.8.0"
+Implementation-Title: ANTLR 4 Runtime
+Implementation-Version: 4.8-1
+Built-By: parrt
+Tool: Bnd-2.4.1.201501161923
+Bundle-Name: ANTLR 4 Runtime
+Created-By: Apache Maven Bundle Plugin
+Implementation-URL: http://www.antlr.org/runtime/antlr4-runtime
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Bundle-Vendor: ANTLR
+Implementation-Vendor: ANTLR
+Automatic-Module-Name: org.antlr.antlr4.runtime
+Implementation-Vendor-Id: org.antlr
+Bundle-Version: 4.8.0.1
+Build-Jdk: 1.7.0_65
+Bnd-LastModified: 1579383556729
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.antlr.org/license.html
+Bundle-Description: The ANTLR 4 Runtime
+Bundle-SymbolicName: org.antlr.antlr4-runtime
+Bundle-DocURL: http://www.antlr.org
+Archiver-Version: Plexus Archiver
+
